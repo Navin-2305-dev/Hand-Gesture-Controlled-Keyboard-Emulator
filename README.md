@@ -23,10 +23,10 @@ This project utilizes computer vision to track hand gestures, making it possible
 ## Controls
 The system maps specific hand gestures to directional keyboard inputs:
 
- - Four Fingers Extended (Right Hand): Emulates the Right arrow key.
+ - Five Fingers Extended (Right Hand): Emulates the Right arrow key.
  - Five Fingers Extended (Left Hand): Emulates the Left arrow key.
  - One Finger Extended: Emulates the up arrow key.
- - No Fingers Extended: Emulates the down arrow key.
+ - No Fingers Extended (Closed Palm): Emulates the down arrow key.
 
 ## Limitations
  - Platform Dependency: Designed specifically for Windows, due to the ctypes dependency for keyboard emulation.
